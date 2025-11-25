@@ -1,0 +1,61 @@
+############################
+# Eclipse Project Files
+############################
+.classpath
+.project
+.settings/
+
+############################
+# Java Build / Output
+############################
+bin/
+build/
+target/
+out/
+
+############################
+# Tomcat / Server Files
+############################
+Servers/
+*.log
+logs/
+
+############################
+# OS Generated Files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+############################
+# Temp & Backup Files
+############################
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+############################
+# IDE Misc
+############################
+*.iml
+.idea/
+*.classpath
+*.factorypath
+
+############################
+# Sensitive Files (Important)
+############################
+src/main/webapp/db.jsp  # If it contains credentials
+config.properties
+*.env
+
+############################
+# Node / n8n (if ever used)
+############################
+node_modules/
+npm-debug.log
+yarn-error.log
